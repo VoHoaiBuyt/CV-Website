@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    border-bottom: 1px solid #fff;
+    margin: 5px auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+}
+.col-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #163853;
+    color:#fff;
+}
+.col-left img{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 40px auto;
+}
+.contact-box,.education-box,.skill-box,.language-box{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.col-right{
+    margin-left: 40px;
+}
+.col-right h2{
+    color:#163853
+}
