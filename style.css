@@ -35,8 +35,49 @@ h2{
     margin-top: 20px;
 }
 .col-right{
-    margin-left: 40px;
+    margin: 0 5%;
 }
 .col-right h2{
-    color:#163853
+    color:#163853;
+}
+.col-right h1{
+    margin-top:80px;
+}
+.last-name{
+    font-family: "Inter",sans serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#515151;
+}
+.first-name{
+    font-family: "Inter",sans serif;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #1D3A4D;
+}
+.Work{
+    margin-bottom: 100px;
+}
+.profile-box{
+    margin-bottom: 20px;
+}
+.profile-box h2{
+    border-bottom: 3px solid #163146;
+    margin-bottom: 20px;
+}
+.work-ex{
+    margin-bottom: 20px;
+}
+.work-ex h2{
+    border-bottom: 3px solid #163146;
+}
+.work-ct{
+    margin-left: 30px;
+}
+.work-title::marker{
+    margin-left: 0;
+    font-size: 2em;
+}
+.reference-box h2{
+    border-bottom: 3px solid #163146;
 }
